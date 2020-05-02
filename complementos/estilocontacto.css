@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #e3e3e3;	
+		}
+#navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #32d1b1;
+}
+
+#navbar li {
+  float: left;
+	list-style: none;
+}
+
+#navbar li a {
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: white;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+	font-size: 30px;
+	color: white;
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado{
+	color: white;
+	font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img {
+	height: 400px;
+	width: 1408px;
+	object-fit: cover;
+}
+.contacto{
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	padding: 50px 70px 20px 70px;
+}
+
+.contactoimg{
+	object-position: center;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	padding: 50px 70px 20px 70px;
+}
+
+footer{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}

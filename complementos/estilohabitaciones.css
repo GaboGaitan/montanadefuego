@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #e3e3e3;	
+		}
+#navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #32d1b1;
+}
+
+#navbar li {
+  float: left;
+	list-style: none;
+}
+
+#navbar li a {
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: white;
+}
+
+.habitaciones ul{
+	list-style: none;
+}
+
+footer{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
